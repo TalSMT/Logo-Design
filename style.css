@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #091836;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.excel-edit{
+    width: 270px;
+    height: 270px;
+    /* background:  radial-gradient(circle at 33% 100%, #a0d860 4%, 
+    #21ad73 30%, #10751e 62%); */
+
+    background: linear-gradient(to bottom, rgba(180,221,180,1) 9%,rgba(180,221,180,1) 11%,rgba(131,199,131,1) 17%,
+    rgba(0,36,0,1) 29%,rgba(0,138,0,1) 60%,rgba(82,177,82,1) 74%,rgba(0,87,0,1) 83%);
+    /* border-radius: 54px;  */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%,
+     100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    /* clip-path: polygon(50% 0%, 91% 19%, 91% 68%, 50% 100%, 9% 68%, 9% 20%);*/
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: 10px;
+    fill:#2f4f4f;
+    font: bold solid 45px 'Excel Editor'; */
+}
+.excel-edit > .text{
+    /* color:#2f4f4f; */
+    color: #24252A;
+    font-size: 40px;
+    font-family:  'Raleway',sans-serif;
+   position: absolute;
+    margin-top:150px;
+    margin-left: 10px;
+    /* display: inline-block; 
+    align-items: center;
+    justify-content: center; */
+  
+   
+}
+
+
+.excel-edit_inner{
+    width: 130px;
+    height: 130px;
+    /* border: 18px solid #fff; */
+    /* background: #fff; */
+    background:#24252A ;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 
+    50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    display: flex;
+    position: absolute; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  
+}
+
+.excel-edit_inner2{
+    width: 120px;
+    height: 120px;
+    /* background: radial-gradient(circle at 33% 100%, #a0d860 4%, 
+    #21ad73 30%, #5bd86c 62%,#138f24 4%); */
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
+     100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+     /* background: rgb(174, 241, 153); */
+     background:radial-gradient(circle at 33% 100%, #a0d860 4%, 
+     #21ad73 30%, #10751e 62%) ;
+  
+
+}
+
